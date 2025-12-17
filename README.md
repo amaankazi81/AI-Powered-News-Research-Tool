@@ -89,6 +89,7 @@ news-research-tool/
   
   ### 4️⃣ Set Environment Variables
       Create a .env file:
+      
           ```
           GOOGLE_API_KEY=your_google_gemini_api_key
   
