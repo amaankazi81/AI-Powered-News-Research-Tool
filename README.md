@@ -23,7 +23,7 @@ The project is built using **LangChain (LCEL)**, **Google Gemini**, **FAISS**, a
 
 ## 🧠 Project Architecture (RAG Pipeline)
 
-  - Project Arcgitecture:
+  - Project Architecture:
     ```
       User Input (URL / PDF)
           ↓
