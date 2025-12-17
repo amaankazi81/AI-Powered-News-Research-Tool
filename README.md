@@ -78,7 +78,7 @@ Final Answer
             git clone https://github.com/your-username/news-research-tool.git
             cd news-research-tool
   
-  **2. Create Virtual Environment**
+  2. **Create Virtual Environment**
       ```
         python -m venv venv
         venv\Scripts\activate 
