@@ -75,8 +75,8 @@ Final Answer
 
   ### 1️⃣ Clone the Repository
       ```bash
-        git clone https://github.com/your-username/news-research-tool.git
-        cd news-research-tool
+            git clone https://github.com/your-username/news-research-tool.git
+            cd news-research-tool
   
   ### 2️⃣ Create Virtual Environment
       ```bash
