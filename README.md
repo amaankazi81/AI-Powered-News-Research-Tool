@@ -61,40 +61,41 @@ Final Answer
 
 ## 📂 Project Structure
 
-news-research-tool/
-│
-├── app.py              # Main Streamlit application
-├── utils.py            # Article & PDF loading utilities
-├── requirements.txt    # Project dependencies
-├── .env                # Environment variables
-└── README.md           # Project documentation
+    ```text
+      news-research-tool/
+      │
+      ├── app.py              # Main Streamlit application
+      ├── utils.py            # Article & PDF loading utilities
+      ├── requirements.txt    # Project dependencies
+      ├── .env                # Environment variables
+      └── README.md           # Project documentation
 
 
 ## ⚙️ Installation & Setup
 
   ### 1️⃣ Clone the Repository
-      ```
+      ```bash
         git clone https://github.com/your-username/news-research-tool.git
         cd news-research-tool
   
   ### 2️⃣ Create Virtual Environment
-      ```
+      ```bash
       python -m venv venv
       venv\Scripts\activate 
   
   ### 3️⃣ Install Dependencies
-      ```
+      ```bash
       pip install -r requirements.txt
       pip install lxml[html_clean]
   
   ### 4️⃣ Set Environment Variables
       Create a .env file:
       
-          ```
+          ```env
           GOOGLE_API_KEY=your_google_gemini_api_key
   
   ### 5️⃣ Run the Application
-      ```
+      ```bash
       streamlit run app.py
 
 
