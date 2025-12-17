@@ -73,7 +73,7 @@ Final Answer
 
 ## ⚙️ Installation & Setup
 
-  ### 1️⃣ Clone the Repository
+  1. **Clone the Repository**
       ```bash
             git clone https://github.com/your-username/news-research-tool.git
             cd news-research-tool
