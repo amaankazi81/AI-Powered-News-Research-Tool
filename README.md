@@ -71,9 +71,9 @@ news-research-tool/
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
-    ```bash
-    git clone https://github.com/your-username/news-research-tool.git
-    cd news-research-tool
+    ```
+      git clone https://github.com/your-username/news-research-tool.git
+      cd news-research-tool
 
 ### 2️⃣ Create Virtual Environment
     ```
@@ -86,10 +86,9 @@ news-research-tool/
     pip install lxml[html_clean]
 
 ### 4️⃣ Set Environment Variables
-
     Create a .env file:
-      ```
-      GOOGLE_API_KEY=your_google_gemini_api_key
+        ```
+        GOOGLE_API_KEY=your_google_gemini_api_key
 
 ### 5️⃣ Run the Application
     ```
