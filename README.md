@@ -8,16 +8,22 @@ The project is built using **LangChain (LCEL)**, **Google Gemini**, **FAISS**, a
 
 ## 🚀 Features
 
+- 🖥️ User-friendly Streamlit interface
+<img width="1917" height="1025" alt="AINR1" src="https://github.com/user-attachments/assets/fffe30cc-8e1f-4121-bb89-50eaea4edef1" />
+
 - 📄 Upload **financial PDFs** (reports, analysis documents)
 - 🔗 Input **news article URLs**
+<img width="1911" height="1020" alt="AINR2" src="https://github.com/user-attachments/assets/c2912ed6-006d-4ca0-849b-7035ea62f969" />
+
 - 💬 Ask natural language questions
 - 📊 Get AI-generated insights focused on:
   - Stock market trends  
   - Company performance  
-  - Financial analysis  
+  - Financial analysis
+<img width="1918" height="1032" alt="AINR3" src="https://github.com/user-attachments/assets/b58febcf-046f-4e31-91b7-42bea7513f84" />
+
 - ⚡ Fast semantic search using vector embeddings
 - 🧠 Reduced hallucinations using RAG architecture
-- 🖥️ User-friendly Streamlit interface
 
 ---
 
