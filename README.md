@@ -23,23 +23,22 @@ The project is built using **LangChain (LCEL)**, **Google Gemini**, **FAISS**, a
 
 ## 🧠 Project Architecture (RAG Pipeline)
 
-User Input (URL / PDF)
+  ```
+    User Input (URL / PDF)
         ↓
-Text Extraction
+  Text Extraction
         ↓
-Text Chunking
+  Text Chunking
         ↓
-Embedding Generation
+  Embedding Generation
         ↓
-FAISS Vector Store
+  FAISS Vector Store
         ↓
-Relevant Context Retrieval
+  Relevant Context Retrieval
         ↓
-Gemini LLM
+  Gemini LLM
         ↓
-Final Answer
-
-
+  Final Answer
 
 
 ---
