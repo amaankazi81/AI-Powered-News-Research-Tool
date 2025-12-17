@@ -89,10 +89,10 @@ Final Answer
         pip install lxml[html_clean]
   
    4. **Set Environment Variables**
-      Create a .env file:
+        Create a .env file:
       
           ```
-            GOOGLE_API_KEY=your_google_gemini_api_key
+              GOOGLE_API_KEY=your_google_gemini_api_key
   
    5. **Run the Application**
       ```
