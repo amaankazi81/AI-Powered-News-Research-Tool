@@ -104,29 +104,29 @@ Final Answer
 
 1. **Text Extraction**
 
-  - News articles are parsed using newspaper3k
-  
-  - PDFs are parsed using pypdf
+    - News articles are parsed using newspaper3k
+    
+    - PDFs are parsed using pypdf
 
 2. **Text Chunking**
 
-  - Large documents are split into overlapping chunks to handle token limits
+    - Large documents are split into overlapping chunks to handle token limits
 
 3. **Embeddings**
 
-  - Each chunk is converted into vector embeddings using HuggingFace models
+    - Each chunk is converted into vector embeddings using HuggingFace models
 
 4. **Vector Storage**
 
-  - FAISS stores embeddings and enables fast similarity search
+    - FAISS stores embeddings and enables fast similarity search
 
 5. **Query Processing**
 
-  - Relevant chunks are retrieved based on user queries
+    - Relevant chunks are retrieved based on user queries
 
 6. **Answer Generation**
 
-  - Google Gemini (gemini-pro) generates context-aware answers using retrieved data
+    - Google Gemini (gemini-pro) generates context-aware answers using retrieved data
 
 
 ## 📄 License
