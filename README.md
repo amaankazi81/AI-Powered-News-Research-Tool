@@ -24,20 +24,21 @@ The project is built using **LangChain (LCEL)**, **Google Gemini**, **FAISS**, a
 ## 🧠 Project Architecture (RAG Pipeline)
 
 User Input (URL / PDF)
-↓
+        ↓
 Text Extraction
-↓
+        ↓
 Text Chunking
-↓
+        ↓
 Embedding Generation
-↓
+        ↓
 FAISS Vector Store
-↓
+        ↓
 Relevant Context Retrieval
-↓
+        ↓
 Gemini LLM
-↓
+        ↓
 Final Answer
+
 
 
 
@@ -62,37 +63,38 @@ Final Answer
 
 news-research-tool/
 │
-├── app.py # Main Streamlit application
-├── utils.py # Article & PDF loaders
-├── requirements.txt # Project dependencies
-├── .env # Environment variables
-└── README.md
+├── app.py              # Main Streamlit application
+├── utils.py            # Article & PDF loading utilities
+├── requirements.txt    # Project dependencies
+├── .env                # Environment variables
+└── README.md           # Project documentation
+
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the Repository
-    ```
-      git clone https://github.com/your-username/news-research-tool.git
-      cd news-research-tool
-
-### 2️⃣ Create Virtual Environment
-    ```
-    python -m venv venv
-    venv\Scripts\activate 
-
-### 3️⃣ Install Dependencies
-    ```
-    pip install -r requirements.txt
-    pip install lxml[html_clean]
-
-### 4️⃣ Set Environment Variables
-    Create a .env file:
-        ```
-        GOOGLE_API_KEY=your_google_gemini_api_key
-
-### 5️⃣ Run the Application
-    ```
-    streamlit run app.py
+  ### 1️⃣ Clone the Repository
+      ```
+        git clone https://github.com/your-username/news-research-tool.git
+        cd news-research-tool
+  
+  ### 2️⃣ Create Virtual Environment
+      ```
+      python -m venv venv
+      venv\Scripts\activate 
+  
+  ### 3️⃣ Install Dependencies
+      ```
+      pip install -r requirements.txt
+      pip install lxml[html_clean]
+  
+  ### 4️⃣ Set Environment Variables
+      Create a .env file:
+          ```
+          GOOGLE_API_KEY=your_google_gemini_api_key
+  
+  ### 5️⃣ Run the Application
+      ```
+      streamlit run app.py
 
 
 ## 🧪 How It Works (Technical Overview)
