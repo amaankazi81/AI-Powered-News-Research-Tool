@@ -76,8 +76,8 @@ Final Answer
 
   1. **Clone the Repository**
       ```
-        git clone https://github.com/your-username/news-research-tool.git
-        cd news-research-tool
+        git clone https://github.com/amaankazi81/AI-Powered-News-Research-Tool.git
+        cd AI-Powered-News-Research-Tool
   
   2. **Create Virtual Environment**
       ```
