@@ -61,14 +61,15 @@ Final Answer
 
 ## 📂 Project Structure
 
-    ```
-        news-research-tool/
-        │
-        ├── app.py              # Main Streamlit application
-        ├── utils.py            # Article & PDF loading utilities
-        ├── requirements.txt    # Project dependencies
-        ├── .env                # Environment variables
-        └── README.md           # Project documentation
+  - **Project Structure is as follow:** 
+      ```
+          news-research-tool/
+          │
+          ├── app.py              # Main Streamlit application
+          ├── utils.py            # Article & PDF loading utilities
+          ├── requirements.txt    # Project dependencies
+          ├── .env                # Environment variables
+          └── README.md           # Project documentation
 
 
 ## ⚙️ Installation & Setup
@@ -90,9 +91,8 @@ Final Answer
   
    4. **Set Environment Variables**
         Create a .env file:
-      
-          ```
-              GOOGLE_API_KEY=your_google_gemini_api_key
+        ```
+          GOOGLE_API_KEY=your_google_gemini_api_key
   
    5. **Run the Application**
       ```
