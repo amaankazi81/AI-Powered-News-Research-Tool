@@ -73,7 +73,7 @@ The project is built using **LangChain (LCEL)**, **Google Gemini**, **FAISS**, a
           │
           ├── app.py              # Main Streamlit application
           ├── utils.py            # Article & PDF loading utilities
-          ├── requirements.txt    # Project dependencies
+          ├── req.txt             # Project dependencies
           ├── .env                # Environment variables
           └── README.md           # Project documentation
 
@@ -92,7 +92,7 @@ The project is built using **LangChain (LCEL)**, **Google Gemini**, **FAISS**, a
   
    3. **Install Dependencies**
       ```
-        pip install -r requirements.txt
+        pip install -r req.txt
         pip install lxml[html_clean]
   
    4. **Set Environment Variables**
